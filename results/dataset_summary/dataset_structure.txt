@@ -1,0 +1,126 @@
+SHREC 2020 Cryo-ET Dataset – Structure Report
+====================================================
+
+model_0/  [EXISTS]
+   class_bbox.mrc                         200.00 MB
+   class_mask.mrc                         200.00 MB
+   grandmodel.mrc                         200.00 MB
+   grandmodel_noisefree.mrc               200.00 MB
+   occupancy_bbox.mrc                     200.00 MB
+   occupancy_mask.mrc                     200.00 MB
+   particle_locations.txt                   0.10 MB
+   projections.mrc                         41.00 MB
+   projections_noisefree.mrc               41.00 MB
+   reconstruction.mrc                     512.00 MB
+
+model_1/  [EXISTS]
+   class_bbox.mrc                         200.00 MB
+   class_mask.mrc                         200.00 MB
+   grandmodel.mrc                         200.00 MB
+   grandmodel_noisefree.mrc               200.00 MB
+   occupancy_bbox.mrc                     200.00 MB
+   occupancy_mask.mrc                     200.00 MB
+   particle_locations.txt                   0.10 MB
+   projections.mrc                         41.00 MB
+   projections_noisefree.mrc               41.00 MB
+   reconstruction.mrc                     512.00 MB
+
+model_2/  [EXISTS]
+   class_bbox.mrc                         200.00 MB
+   class_mask.mrc                         200.00 MB
+   grandmodel.mrc                         200.00 MB
+   grandmodel_noisefree.mrc               200.00 MB
+   occupancy_bbox.mrc                     200.00 MB
+   occupancy_mask.mrc                     200.00 MB
+   particle_locations.txt                   0.10 MB
+   projections.mrc                         41.00 MB
+   projections_noisefree.mrc               41.00 MB
+   reconstruction.mrc                     512.00 MB
+
+model_3/  [EXISTS]
+   class_bbox.mrc                         200.00 MB
+   class_mask.mrc                         200.00 MB
+   grandmodel.mrc                         200.00 MB
+   grandmodel_noisefree.mrc               200.00 MB
+   occupancy_bbox.mrc                     200.00 MB
+   occupancy_mask.mrc                     200.00 MB
+   particle_locations.txt                   0.11 MB
+   projections.mrc                         41.00 MB
+   projections_noisefree.mrc               41.00 MB
+   reconstruction.mrc                     512.00 MB
+
+model_4/  [EXISTS]
+   class_bbox.mrc                         200.00 MB
+   class_mask.mrc                         200.00 MB
+   grandmodel.mrc                         200.00 MB
+   grandmodel_noisefree.mrc               200.00 MB
+   occupancy_bbox.mrc                     200.00 MB
+   occupancy_mask.mrc                     200.00 MB
+   particle_locations.txt                   0.10 MB
+   projections.mrc                         41.00 MB
+   projections_noisefree.mrc               41.00 MB
+   reconstruction.mrc                     512.00 MB
+
+model_5/  [EXISTS]
+   class_bbox.mrc                         200.00 MB
+   class_mask.mrc                         200.00 MB
+   grandmodel.mrc                         200.00 MB
+   grandmodel_noisefree.mrc               200.00 MB
+   occupancy_bbox.mrc                     200.00 MB
+   occupancy_mask.mrc                     200.00 MB
+   particle_locations.txt                   0.11 MB
+   projections.mrc                         41.00 MB
+   projections_noisefree.mrc               41.00 MB
+   reconstruction.mrc                     512.00 MB
+
+model_6/  [EXISTS]
+   class_bbox.mrc                         200.00 MB
+   class_mask.mrc                         200.00 MB
+   grandmodel.mrc                         200.00 MB
+   grandmodel_noisefree.mrc               200.00 MB
+   occupancy_bbox.mrc                     200.00 MB
+   occupancy_mask.mrc                     200.00 MB
+   particle_locations.txt                   0.11 MB
+   projections.mrc                         41.00 MB
+   projections_noisefree.mrc               41.00 MB
+   reconstruction.mrc                     512.00 MB
+
+model_7/  [EXISTS]
+   class_bbox.mrc                         200.00 MB
+   class_mask.mrc                         200.00 MB
+   grandmodel.mrc                         200.00 MB
+   grandmodel_noisefree.mrc               200.00 MB
+   occupancy_bbox.mrc                     200.00 MB
+   occupancy_mask.mrc                     200.00 MB
+   particle_locations.txt                   0.10 MB
+   projections.mrc                         41.00 MB
+   projections_noisefree.mrc               41.00 MB
+   reconstruction.mrc                     512.00 MB
+
+model_8/  [EXISTS]
+   class_bbox.mrc                         200.00 MB
+   class_mask.mrc                         200.00 MB
+   grandmodel.mrc                         200.00 MB
+   grandmodel_noisefree.mrc               200.00 MB
+   occupancy_bbox.mrc                     200.00 MB
+   occupancy_mask.mrc                     200.00 MB
+   particle_locations.txt                   0.11 MB
+   projections.mrc                         41.00 MB
+   projections_noisefree.mrc               41.00 MB
+   reconstruction.mrc                     512.00 MB
+
+model_9/  [EXISTS]
+   class_bbox.mrc                         200.00 MB
+   class_mask.mrc                         200.00 MB
+   grandmodel.mrc                         200.00 MB
+   grandmodel_noisefree.mrc               200.00 MB
+   occupancy_bbox.mrc                     200.00 MB
+   occupancy_mask.mrc                     200.00 MB
+   particle_locations.txt                   0.11 MB
+   projections.mrc                         41.00 MB
+   projections_noisefree.mrc               41.00 MB
+   reconstruction.mrc                     512.00 MB
+
+----------------------------------------------------
+Total files found : 100
+Missing files     : 0
