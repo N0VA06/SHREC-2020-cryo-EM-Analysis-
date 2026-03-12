@@ -292,25 +292,6 @@ results/
     └── subtomogram_examples/       # model_<N>_class<C>_examples.png
 ```
 
----
-
-## Citation
-
-```bibtex
-@inproceedings{gubins2020shrec,
-  title     = {SHREC 2020: Classification in Cryo-Electron Tomograms},
-  author    = {Gubins, Ilja and others},
-  booktitle = {Eurographics Workshop on 3D Object Retrieval},
-  year      = {2020},
-  doi       = {10.2312/3dor.20201157}
-}
-```) |
-
-> **Each panel:** Raw slice · Mask / BBox volume · Semi-transparent overlay  
-> `mask_visualization/class_mask_overlay/` · `mask_visualization/bbox_overlay/`
-
----
-
 ## Dataset Summary
 
 | File | Content |
@@ -335,42 +316,3 @@ cube = np.load("subtomograms/extracted_particles/model_0_sub_0000.npy")
 # shape: (32, 32, 32), dtype: float32
 
 ---
-
-## Full Results Structure
-
-```
-results/
-├── dataset_summary/
-│   ├── dataset_structure.txt
-│   └── volume_statistics.csv
-├── figures_summary/
-│   └── comparison_panels/          # model_<N>_panel.png  ×10
-├── mask_visualization/
-│   ├── bbox_overlay/               # model_<N>_bbox_overlay.png  ×10
-│   └── class_mask_overlay/         # model_<N>_mask_overlay.png  ×10
-├── noise_analysis/
-│   ├── before_after_noise/         # model_<N>_before_after.png  ×10
-│   └── noise_histograms/           # model_<N>_{histograms,snr}.png  ×10
-├── particle_analysis/
-│   ├── particle_distribution/      # all_particle_locations.csv
-│   ├── particle_histograms/        # model_<N>_class_counts.png  ×10
-│   └── particle_3d_scatter/        # model_<N>_scatter_{XY,XZ,3D}.png  ×10
-├── preprocessing/
-│   ├── contrast_enhancement/       # model_<N>_{clahe,histogram_equalization}.png  ×10
-│   ├── denoising/                  # model_<N>_{gaussian,median}_denoising.png  ×10
-│   └── normalization/              # model_<N>_{min-max,z-score}_normalization.png  ×10
-├── projection_analysis/
-│   ├── before_after_projection/    # model_<N>_before_after.png  ×10
-│   └── tilt_series_visualization/  # model_<N>_{tilt_series,tilt_angles,variance_vs_tilt}.png  ×10
-├── reconstruction_analysis/
-│   ├── reconstruction_vs_groundtruth/  # model_<N>_comparison.png  ×10
-│   └── slice_variance_plots/           # model_<N>_{variance_z,intensity_hist}.png  ×10
-├── slice_visualizations/
-│   ├── grandmodel/                 # model_<N>_{XY,XZ,YZ}.png  ×10
-│   ├── noisefree/                  # model_<N>_{XY,XZ,YZ}.png  ×10
-│   └── reconstruction/             # model_<N>_{XY,XZ,YZ}.png  ×10
-└── subtomograms/
-    ├── extracted_particles/        # model_<N>_sub_<XXXX>.npy
-    └── subtomogram_examples/       # model_<N>_class<C>_examples.png
-```
-
