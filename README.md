@@ -330,11 +330,9 @@ subtomograms/
 └── subtomogram_examples/     # 3-row figures: full slice + marker / cube XY / zoom
 ```
 
-```python
 import numpy as np
 cube = np.load("subtomograms/extracted_particles/model_0_sub_0000.npy")
 # shape: (32, 32, 32), dtype: float32
-```
 
 ---
 
@@ -376,16 +374,3 @@ results/
     └── subtomogram_examples/       # model_<N>_class<C>_examples.png
 ```
 
----
-
-## Citation
-
-```bibtex
-@inproceedings{gubins2020shrec,
-  title     = {SHREC 2020: Classification in Cryo-Electron Tomograms},
-  author    = {Gubins, Ilja and others},
-  booktitle = {Eurographics Workshop on 3D Object Retrieval},
-  year      = {2020},
-  doi       = {10.2312/3dor.20201157}
-}
-```
